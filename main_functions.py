@@ -9,7 +9,6 @@ from keras.models import load_model
 K.set_image_data_format('channels_first')
 np.set_printoptions(threshold=np.nan)
 
-
 #provides 128 dim embeddings for face
 def img_to_encoding(img):
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
