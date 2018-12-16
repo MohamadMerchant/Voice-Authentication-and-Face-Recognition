@@ -1,0 +1,15 @@
+tensorflow
+numpy 
+os
+glob
+pickle
+cv2
+time
+keras
+pyaudio
+IPython
+wave
+scipy
+sklearn
+warnings
+python_speech_features
