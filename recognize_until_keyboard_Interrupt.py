@@ -59,7 +59,7 @@ def recognize():
                         in gmm_files]
 
              if len(models) == 0:
-                print("No Users in the database!")
+                print("No Users in the database!!")
                 break
 
             #read test file
