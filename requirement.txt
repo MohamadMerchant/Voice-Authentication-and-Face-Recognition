@@ -1,15 +1,9 @@
 tensorflow
+opencv-python
 numpy 
-os
-glob
-pickle
-cv2
-time
 keras
 pyaudio
-IPython
 wave
 scipy
-sklearn
-warnings
+scikit-learn
 python_speech_features
