@@ -58,6 +58,9 @@ def recognize():
     speakers   = [fname.split("/")[-1].split(".gmm")[0] for fname 
                 in gmm_files]
   
+     if len(models) == 0:
+                print("No Users Authorized!")
+                break
     #read test file
     sr,audio = read(FILENAME)
     

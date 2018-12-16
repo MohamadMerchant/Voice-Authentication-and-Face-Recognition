@@ -17,7 +17,7 @@ def add_user():
         with open('./face_database/embeddings.pickle', 'rb') as database:
             db = pickle.load(database)   
             
-            if name in db:
+            if name in db or name == 'unknown':
                 print("Name Already Exists! Try Another Name...")
                 return
     else:
