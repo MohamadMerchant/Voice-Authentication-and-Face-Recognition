@@ -12,6 +12,7 @@ from main_functions import *
 def add_user():
     
     name = input("Enter Name:")
+
      # check for existing database
     if os.path.exists('./face_database/embeddings.pickle'):
         with open('./face_database/embeddings.pickle', 'rb') as database:
