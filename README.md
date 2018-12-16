@@ -543,10 +543,10 @@ if __name__ == '__main__':
  The threshold value controls the confidence with which the face is recognized, you can control it by changing the value which is here 0.5. <br><br>
  
 ___ 
-**Another version of recognizing user will keep runnning until KeyboardInterrupt by the user. It is a modified version recognize() function for real time situations.**
+**Another version of recognizing user will keep runnning until KeyboardInterrupt by the user. It is a modified version of recognize() function for real time situations.**
  ___
 <br>
-#### References:
+**References:
 *Code for Facenet model is based on the assignment from Convolutional Neural Networks Specialization by Deeplearning.ai on Coursera*.<br>
 https://www.coursera.org/learn/convolutional-neural-networks/home/welcome 
 *Florian Schroff, Dmitry Kalenichenko, James Philbin (2015). [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/pdf/1503.03832.pdf)*
