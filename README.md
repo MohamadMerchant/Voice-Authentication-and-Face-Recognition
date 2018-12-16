@@ -21,6 +21,10 @@ ___
    ```
      python3 recognize.py
    ```
+   **To Recognize until KeyboardInterrupt (ctrl + c) by the user:**
+   ```
+     python3 recognize_until_keyboard_Interrupt.py
+   ```
    **To delete an existing user :**
    ```
      python3 delete_user.py
