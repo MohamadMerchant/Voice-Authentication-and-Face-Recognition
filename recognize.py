@@ -59,7 +59,7 @@ def recognize():
                 in gmm_files]
   
      if len(models) == 0:
-                print("No Users Authorized!")
+                print("No Users in the Database!!")
                 break
     #read test file
     sr,audio = read(FILENAME)
