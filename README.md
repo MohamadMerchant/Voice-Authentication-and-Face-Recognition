@@ -21,6 +21,10 @@ ___
    ```
      python3 recognize.py
    ```
+   **To Recognize until KeyboardInterrupt (ctrl + c) by the user:**
+   ```
+     python3 recognize_until_keyboard_Interrupt.py
+   ```
    **To delete an existing user :**
    ```
      python3 delete_user.py
@@ -543,12 +547,11 @@ if __name__ == '__main__':
  The threshold value controls the confidence with which the face is recognized, you can control it by changing the value which is here 0.5. <br><br>
  
 ___ 
-**Another version of recognizing user will keep runnning until KeyboardInterrupt by the user. It is a modified version recognize() function for real time situations.**
+**Another version of recognizing user will keep runnning until KeyboardInterrupt by the user. It is a modified version of recognize() function for real time situations.**
  ___
-<br>
-#### References:
+**References :**
 *Code for Facenet model is based on the assignment from Convolutional Neural Networks Specialization by Deeplearning.ai on Coursera*.<br>
 https://www.coursera.org/learn/convolutional-neural-networks/home/welcome 
 *Florian Schroff, Dmitry Kalenichenko, James Philbin (2015). [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/pdf/1503.03832.pdf)*
 *The pretrained model used is inspired by Victor Sy Wang's implementation and was loaded using his code: https://github.com/iwantooxxoox/Keras-OpenFace.*
-*Inspiration from the official FaceNet github repository: https://github.com/davidsandberg/facenet 
+*Inspiration from the official FaceNet github repository: https://github.com/davidsandberg/facenet*
