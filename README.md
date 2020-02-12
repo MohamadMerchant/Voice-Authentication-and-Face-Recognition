@@ -6,8 +6,17 @@ ___
 
    ## How to Run :
    
- **Install dependencies by running**  For Linux Terminal : ```pip3 install -r requirement.txt``` 
- ``` pip install -r requirements.txt```
+ **Install dependencies by running**  
+ 
+ For Linux Terminal : 
+ 
+ ```pip3 install -r requirement.txt``` 
+ 
+ ``` pip install -r requirements.txt``` 
+ 
+ For Windows [Anaconda Prompt] : 
+ 
+ python -m pip install -r requirements.txt
  
  ### 1.Run in Jupyter notebook - main.ipynb
  ___
