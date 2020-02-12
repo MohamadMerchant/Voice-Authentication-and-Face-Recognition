@@ -16,7 +16,7 @@ ___
  
  For Windows [Anaconda Prompt] : 
  
- python -m pip install -r requirements.txt
+ ```python -m pip install -r requirements.txt``` 
  
  ### 1.Run in Jupyter notebook - main.ipynb
  ___
