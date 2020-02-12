@@ -7,7 +7,9 @@ from numpy import genfromtxt
 from keras import backend as K
 from keras.models import load_model
 K.set_image_data_format('channels_first')
-np.set_printoptions(threshold=np.nan)
+# np.set_printoptions(threshold=np.nan)             [Gives Error for np.nan]
+np.set_printoptions(threshold=sys.maxsize)          #[Use sys.max to resolve above error]
+
 
 #provides 128 dim embeddings for face
 def img_to_encoding(img):
