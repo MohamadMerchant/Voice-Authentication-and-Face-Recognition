@@ -6,7 +6,7 @@ import pickle
 import time
 from scipy.io.wavfile import read
 from IPython.display import Audio, display, clear_output
-from sklearn.mixture import GaussianMixture as GMM # This is run the GMM Line 198 
+from sklearn.mixture import GaussianMixture as GMM # This is to run the GMM Line 198 
 
 from main_functions import *
 
@@ -195,7 +195,8 @@ def add_user():
             
         # when features of 3 files of speaker are concatenated, then do model training
         if count == 3:    
-            gmm = GMM(n_components = 16, n_iter = 200, covariance_type='diag',n_init = 3) # change n_iter to max_iter  
+            gmm = GMM(n_components = 16, n_iter = 200, covariance_type='diag',n_init = 3) 
+            # change n_iter to max_iter  [n_iter works only for versions below 0.19]
             gmm.fit(features)
 
             # saving the trained gaussian model
