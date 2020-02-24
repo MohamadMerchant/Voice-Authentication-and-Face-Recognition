@@ -142,7 +142,7 @@ def recognize():
 
             # if min dist is less then threshold value and face and voice matched than unlock the door
             if min_dist <= 0.4 and name == identity:
-                print ("Door Unlocked! Welcome " + str(name))
+                print ("User Recognized! Welcome " + str(name))
                 break
 
         #open the cam for 3 seconds
