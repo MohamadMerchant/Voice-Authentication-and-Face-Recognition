@@ -1,13 +1,14 @@
 import tensorflow as tf
 import numpy as np
 import os
+import sys
 import pickle
 import cv2
 from numpy import genfromtxt
 from keras import backend as K
 from keras.models import load_model
 K.set_image_data_format('channels_first')
-np.set_printoptions(threshold=np.nan)
+np.set_printoptions(threshold=sys.maxsize)
 
 #provides 128 dim embeddings for face
 def img_to_encoding(img):
